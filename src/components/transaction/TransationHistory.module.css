@@ -1,0 +1,37 @@
+.transactionHistory {
+  color: black;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.transactionHistory table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+.transactionHistory thead {
+  background-color: #202020;
+  color: #fff6f6;
+}
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: #c0c0c0;
+}
+
+.transactionHistory td {
+  min-width: 100px;
+}
+
+.transactionHistory td:first-child {
+  text-transform: capitalize;
+}
+tr th {
+  border: 1px solid black;
+}
+tr td {
+  border: 1px solid black;
+}
+
+.transactionHistory tbody tr td {
+  margin: 0;
+  padding: 5px 10px;
+}
