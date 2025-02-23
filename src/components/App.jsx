@@ -1,12 +1,12 @@
-import { useState } from 'react';
+import React from 'react';
 import './App.css';
 
 
 
-import FriendList from './Friendlist/FriendList';
+import FriendList from './FriendList';
 import friends from '../assets/friends.json';
 
-import TransactionHistory from './Transaction/TransactionHistory';
+import TransactionHistory from './TransactionHistory';
 import transactions from '../assets/transactions.json';
 
 export default function App() {
